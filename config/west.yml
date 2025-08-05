@@ -9,9 +9,6 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
   projects:
-    - name: eyelash_sofle
-      url: https://github.com/a741725193/zmk-sofle
-      revision: refactor
     - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
@@ -23,4 +20,4 @@ manifest:
       remote: urob
       revision: main
   self:
-    path: config
+    path: boards
