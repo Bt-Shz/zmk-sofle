@@ -65,36 +65,6 @@
     behaviors {
     };
 
-    macros {
-        superJ: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LWIN>,
-                <&macro_tap>,
-                <&kp J>,
-                <&macro_release>,
-                <&kp LWIN>;
-
-            label = "NEW_MACRO";
-        };
-
-        superL: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LWIN>,
-                <&macro_tap>,
-                <&kp L>,
-                <&macro_release>,
-                <&kp LWIN>;
-
-            label = "NEW_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
